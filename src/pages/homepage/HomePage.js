@@ -3,7 +3,7 @@ import React from "react";
 import "./HomePage.scss";
 import Directory from "../../components/directory/Directory";
 
-function HomePage() {
+function HomePage(props) {
   return (
     <div className='homepage'>
       <Directory />
