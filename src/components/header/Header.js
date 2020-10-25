@@ -5,6 +5,7 @@ import { connect } from "react-redux";
 import "./Header.scss";
 import { ReactComponent as Logo } from "../../assets/4.3 crown.svg";
 import { auth } from "../../firebase/firebase.utils";
+import CartIcon from "../cart-icon/CartIcon";
 
 function Header({ currentUser }) {
   return (
@@ -28,6 +29,7 @@ function Header({ currentUser }) {
             SIGN IN
           </Link>
         )}
+        <CartIcon />
       </div>
     </div>
   );
